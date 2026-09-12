@@ -48,7 +48,6 @@ def score_report(scores):
         "highest_subject": max(scores, key=scores.get),
     }
 
-
 # Problem 3: Prime Number Generator
 # Combine functions, loops, conditionals, and lists.
 def is_prime(number):

@@ -181,4 +181,159 @@ Used a dictionary to count how many times each character appears in a string.
 
 **Folder:** `Day4_FunctionPractice`
 
-Created
+Created functions for:
+
+* Square
+* Cube
+* Factorial
+* Simple Interest
+
+**Concepts practiced:**
+
+* Function definition
+* Parameters
+* Return values
+* Function calls
+
+### 2. Prime Number Checker
+
+**Folder:** `Day4_PrimeChecker`
+
+Created a function to determine whether a number is prime and tested it with different values.
+
+**Concepts practiced:**
+
+* Functions
+* Loops
+* Conditions
+* Mathematical logic
+
+### 3. Fibonacci Series
+
+**Folder:** `Day4_FibonacciSeries`
+
+Generated the Fibonacci series for a specified number of terms using loops.
+
+**Concepts practiced:**
+
+* Loops
+* Variables
+* Sequence generation
+* Problem-solving
+
+### 4. Pattern Printing
+
+**Folder:** `Day4_PatternPrinting`
+
+Created three different star patterns using nested loops.
+
+**Concepts practiced:**
+
+* Nested loops
+* Loop control
+* String repetition
+* Formatting
+
+---
+
+## Friday – Files, Dictionaries & Git
+
+### 1. File Handling Basics
+
+**Folder:** `Day5_FileHandlingBasics`
+
+Practiced creating and working with text files using:
+
+* Write
+* Append
+* Read
+
+Safe file handling techniques were used to properly manage files.
+
+### 2. Student Marks Program
+
+**Folder:** `Day5_StudentMarks`
+
+Stored marks for five students in a dictionary and calculated the average and grade for each student.
+
+**Concepts practiced:**
+
+* Dictionaries
+* Lists
+* Loops
+* `sum()`
+* `len()`
+* Conditional statements
+
+### 3. Mini Practice Set
+
+**Folder:** `Day5_MiniPracticeSet`
+
+Solved three short problems combining concepts learned during the previous four days.
+
+This helped reinforce:
+
+* Conditions
+* Loops
+* Functions
+* Lists
+* Strings
+* Dictionaries
+
+### 4. Git Summary
+
+**Folder:** `Day5_GitSummary`
+
+Organized all Week 1 exercises and created this README to document the concepts and programs completed during the week.
+
+---
+
+# Git Practice
+
+During Week 1, I also practiced basic Git workflow and repository organization.
+
+### Git concepts practiced
+
+* Creating a repository
+* Checking repository status
+* Adding files
+* Creating commits
+* Viewing commit history
+* Organizing project folders
+* Writing README documentation
+
+### Common Git Commands
+
+```bash
+git init
+git status
+git add .
+git commit -m "Complete Week 1 Python exercises"
+git log
+```
+
+---
+
+# Week 1 Skills Learned
+
+By completing these exercises, I practiced the following Python concepts:
+
+* Python syntax
+* Variables
+* Data types
+* User input
+* Arithmetic operators
+* Comparison operators
+* Conditional statements
+* `for` loops
+* `while` loops
+* Functions
+* Lists
+* Strings
+* Dictionaries
+* Nested loops
+* File handling
+* Basic error/input handling
+* Problem-solving
+* Git and GitHub workflow
+git
