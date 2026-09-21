@@ -1,0 +1,493 @@
+# Week 2 – NumPy & Pandas
+
+## Overview
+
+Week 2 focused on learning **NumPy and Pandas**, two of the most commonly used Python libraries for data analysis and data processing.
+
+Throughout the week, I practiced creating and manipulating NumPy arrays, performing mathematical and statistical operations, working with matrices, creating Pandas Series and DataFrames, reading CSV files, handling missing data, filtering and sorting datasets, creating calculated columns, and grouping data.
+
+The goal was to understand how Python can be used to work efficiently with structured data and build a strong foundation for future **Data Science, Machine Learning, and AI/ML projects**.
+
+---
+
+# Monday – NumPy Fundamentals
+
+## 1. NumPy Array Creation
+
+**Folder:** `Day1_NumpyArrays`
+
+Installed NumPy and created one-dimensional and two-dimensional arrays.
+
+Practiced inspecting:
+
+- Array shape
+- Array size
+- Number of dimensions
+- Array data
+
+**Concepts practiced:**
+
+- NumPy installation
+- `numpy.array()`
+- 1D arrays
+- 2D arrays
+- `shape`
+- `size`
+- `ndim`
+
+---
+
+## 2. Array Indexing and Slicing
+
+**Folder:** `Day1_ArraySlicing`
+
+Practiced accessing individual elements, rows, and columns from NumPy arrays using indexing and slicing.
+
+**Concepts practiced:**
+
+- Array indexing
+- Positive indexing
+- Negative indexing
+- Row selection
+- Column selection
+- Array slicing
+
+---
+
+## 3. Array Math Operations
+
+**Folder:** `Day1_ArrayMath`
+
+Performed mathematical operations on NumPy arrays.
+
+Practiced:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+NumPy array operations were compared with normal Python calculations to understand how array-based operations work.
+
+**Concepts practiced:**
+
+- Element-wise operations
+- Array addition
+- Array subtraction
+- Array multiplication
+- Array division
+- NumPy arithmetic
+
+---
+
+# Tuesday – NumPy Operations & Statistics
+
+## 1. Reshape and Flatten
+
+**Folder:** `Day2_ReshapeFlatten`
+
+Practiced changing the structure of NumPy arrays using `reshape()` and converting multi-dimensional arrays into one-dimensional arrays using `flatten()`.
+
+**Concepts practiced:**
+
+- `reshape()`
+- `flatten()`
+- Array dimensions
+- Shape changes
+- 1D and 2D arrays
+
+---
+
+## 2. Random Number Arrays
+
+**Folder:** `Day2_RandomArrays`
+
+Generated random integers and floating-point numbers using NumPy.
+
+Practiced inspecting generated values and understanding the ranges used when creating random data.
+
+**Concepts practiced:**
+
+- `np.random`
+- Random integers
+- Random floating-point numbers
+- Random ranges
+- Array generation
+
+---
+
+## 3. Mean, Median, and Standard Deviation
+
+**Folder:** `Day2_BasicStatistics`
+
+Calculated basic statistical measurements using NumPy.
+
+Practiced calculating:
+
+- Mean
+- Median
+- Standard deviation
+
+Where possible, NumPy results were compared with manual calculations to understand how the calculations work.
+
+**Concepts practiced:**
+
+- `mean()`
+- `median()`
+- `std()`
+- Basic statistics
+- Manual calculations
+- Data analysis
+
+---
+
+## 4. Matrix Operations
+
+**Folder:** `Day2_MatrixOperations`
+
+Created two matrices and performed mathematical operations using NumPy.
+
+Practiced:
+
+- Matrix addition
+- Matrix multiplication
+
+**Concepts practiced:**
+
+- 2D arrays
+- Matrix addition
+- Matrix multiplication
+- `np.matmul()`
+- Matrix operations
+
+---
+
+# Wednesday – Pandas Fundamentals
+
+## 1. Pandas Series Practice
+
+**Folder:** `Day3_PandasSeries`
+
+Created Pandas Series objects and practiced accessing and filtering values.
+
+**Concepts practiced:**
+
+- Pandas Series
+- Series indexing
+- Value access
+- Filtering
+- Series data
+
+---
+
+## 2. DataFrame Creation
+
+**Folder:** `Day3_DataFrameCreation`
+
+Created Pandas DataFrames using dictionaries and lists.
+
+Practiced inspecting rows and columns within the DataFrame.
+
+**Concepts practiced:**
+
+- Pandas DataFrame
+- Dictionaries
+- Lists
+- Rows
+- Columns
+- DataFrame structure
+
+---
+
+## 3. CSV Read and Inspect
+
+**Folder:** `Day3_CSVReadInspect`
+
+Created or loaded a CSV dataset and inspected the data using common Pandas functions.
+
+Practiced:
+
+- Viewing the first rows
+- Viewing the last rows
+- Inspecting DataFrame information
+- Generating statistical summaries
+
+**Concepts practiced:**
+
+- `read_csv()`
+- `head()`
+- `tail()`
+- `info()`
+- `describe()`
+- CSV data processing
+
+---
+
+## 4. Column Selection
+
+**Folder:** `Day3_ColumnSelection`
+
+Practiced selecting individual and multiple columns from a DataFrame and filtering rows based on conditions.
+
+**Concepts practiced:**
+
+- Single-column selection
+- Multiple-column selection
+- Boolean conditions
+- Row filtering
+- DataFrame indexing
+
+---
+
+# Thursday – Data Cleaning & Transformation
+
+## 1. Missing Values Basics
+
+**Folder:** `Day4_MissingValues`
+
+Created datasets containing missing values and practiced identifying, filling, and removing missing data.
+
+**Concepts practiced:**
+
+- Missing values
+- `isnull()`
+- `fillna()`
+- `dropna()`
+- Data cleaning
+
+---
+
+## 2. Sorting and Renaming
+
+**Folder:** `Day4_SortRename`
+
+Practiced renaming DataFrame columns and sorting records based on values in one or more columns.
+
+**Concepts practiced:**
+
+- `rename()`
+- `sort_values()`
+- Ascending order
+- Descending order
+- DataFrame organization
+
+---
+
+## 3. New Column Creation
+
+**Folder:** `Day4_NewColumns`
+
+Created new DataFrame columns using calculations based on existing columns.
+
+Examples included calculating:
+
+- Total marks
+- Percentages
+- Other derived values
+
+**Concepts practiced:**
+
+- Creating new columns
+- Column calculations
+- Arithmetic operations
+- Data transformation
+
+---
+
+## 4. Grouping Basics
+
+**Folder:** `Day4_GroupByBasics`
+
+Used `groupby()` to organize data by categories and calculate summary statistics.
+
+Practiced calculating:
+
+- Counts
+- Averages
+- Group-level summaries
+
+**Concepts practiced:**
+
+- `groupby()`
+- `count()`
+- `mean()`
+- Aggregation
+- Categorical analysis
+
+---
+
+# Friday – Mini Project, Documentation & Git
+
+## 1. Mini Dataset Project
+
+**Folder:** `Day5_MiniDatasetProject`
+
+Created a small marks or sales dataset and applied the NumPy and Pandas concepts learned throughout the week.
+
+The project included:
+
+- Creating/loading the dataset
+- Inspecting the data
+- Identifying missing values
+- Cleaning the dataset
+- Filtering records
+- Creating calculated columns
+- Grouping data
+- Calculating summary statistics
+- Producing a final summary
+
+**Concepts practiced:**
+
+- NumPy
+- Pandas
+- Data cleaning
+- Data transformation
+- Filtering
+- Sorting
+- Grouping
+- Basic statistics
+- Data analysis
+
+---
+
+## 2. Summary Notebook
+
+**Folder:** `Day5_SummaryNotebook`
+
+Created a clean Jupyter Notebook documenting the NumPy and Pandas concepts covered during Week 2.
+
+The notebook contains examples and practice exercises for:
+
+- NumPy arrays
+- Array indexing
+- Array slicing
+- Array mathematics
+- Reshaping
+- Random arrays
+- Statistics
+- Matrix operations
+- Pandas Series
+- DataFrames
+- CSV processing
+- Data filtering
+- Missing values
+- Sorting
+- Column creation
+- GroupBy operations
+
+This notebook serves as a reference for future data analysis and machine learning work.
+
+---
+
+## 3. Git Push Cleanup
+
+**Folder:** `Day5_GitSummary`
+
+Organized all Week 2 exercises with proper folder and file names and updated the README documentation.
+
+The repository was cleaned up so that each exercise is easy to understand and review.
+
+---
+
+# Git Practice
+
+During Week 2, I continued practicing Git and GitHub workflow while organizing the NumPy and Pandas exercises.
+
+## Git concepts practiced
+
+- Checking repository status
+- Adding new files
+- Creating commits
+- Reviewing commit history
+- Organizing project folders
+- Updating README documentation
+- Pushing changes to GitHub
+- Maintaining a clean repository structure
+
+## Common Git Commands
+
+```bash
+git status
+git add .
+git commit -m "Complete Week 2 NumPy and Pandas exercises"
+git log
+git push
+```
+
+---
+
+# Week 2 Skills Learned
+
+By completing these exercises, I practiced the following concepts:
+
+### NumPy
+
+- NumPy installation
+- NumPy arrays
+- 1D arrays
+- 2D arrays
+- Array indexing
+- Array slicing
+- Array arithmetic
+- `shape`
+- `size`
+- `ndim`
+- `reshape()`
+- `flatten()`
+- Random number generation
+- Mean
+- Median
+- Standard deviation
+- Matrix operations
+
+### Pandas
+
+- Pandas Series
+- Pandas DataFrames
+- DataFrame creation
+- CSV reading
+- Data inspection
+- Column selection
+- Row filtering
+- Missing-value handling
+- Sorting
+- Column renaming
+- New column creation
+- GroupBy operations
+- Aggregation
+- Basic data analysis
+
+### Data Analysis
+
+- Data cleaning
+- Data transformation
+- Statistical analysis
+- Dataset inspection
+- Filtering and aggregation
+- Working with structured data
+- Mini-project development
+
+### Development & Git
+
+- Python project organization
+- Jupyter Notebook
+- Git workflow
+- GitHub repository management
+- README documentation
+- Clean project structure
+
+---
+
+# Week 2 Outcome
+
+By the end of Week 2, I developed a basic understanding of how **NumPy and Pandas are used to create, manipulate, clean, transform, and analyze datasets in Python**.
+
+The exercises provided a foundation for progressing toward more advanced topics such as:
+
+- Data visualization
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Machine learning
+- PySpark
+- Data pipelines
+- AI/ML projects
