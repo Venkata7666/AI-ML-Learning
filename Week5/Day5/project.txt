@@ -1,0 +1,47 @@
+# Student Performance Prediction — Project Documentation
+
+## 1. Problem Statement
+The goal of this project is to predict whether a student will pass or fail based on study hours, attendance, and previous exam scores. Two machine learning models are trained and compared to identify the better-performing model.
+
+## 2. Dataset Summary
+The project uses a sample dataset containing the following columns:
+
+- **StudyHours:** Number of hours spent studying.
+- **Attendance:** Student attendance percentage.
+- **PreviousScore:** Score obtained in a previous examination.
+- **Pass:** Target variable (1 = Pass, 0 = Fail).
+
+The sample dataset is created for practice purposes and is not a real student dataset.
+
+## 3. Data Preprocessing
+The following preprocessing steps are performed:
+
+1. Separate input features and the target variable.
+2. Split the dataset into training and testing sets.
+3. Apply StandardScaler to the numerical features for Logistic Regression.
+4. Keep the original numerical features for Random Forest.
+5. Use the same training and testing split to compare both models fairly.
+
+## 4. Models Used
+
+### Logistic Regression
+Logistic Regression is a classification algorithm used to predict the probability of a student passing or failing.
+
+### Random Forest Classifier
+Random Forest combines multiple decision trees to make predictions and can capture nonlinear relationships between features.
+
+## 5. Evaluation Metrics
+The models are evaluated using:
+
+- **Accuracy:** Percentage of correct predictions.
+- **Precision:** Proportion of predicted passes or failures that are correct for each class.
+- **Recall:** Proportion of actual cases correctly identified for each class.
+- **F1-score:** Harmonic mean of precision and recall.
+
+The Python script prints these metrics for both models. The results should be recorded after running the code.
+
+## 6. Model Comparison
+Compare the test accuracy, precision, recall, and F1-score of Logistic Regression and Random Forest. Select the model that performs best based on the evaluation metrics relevant to the project.
+
+## 7. Conclusion
+This project demonstrates an end-to-end machine learning classification workflow, including dataset preparation, feature scaling, model training, prediction, and evaluation. The best model is selected based on its test performance. Because the dataset is small and illustrative, further testing on a larger, real-world dataset is necessary before drawing practical conclusions.
