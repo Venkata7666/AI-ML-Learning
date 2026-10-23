@@ -1,0 +1,68 @@
+# Week 7 - Day 4: Neural Network Summary Notes
+
+## 1. Introduction to Neural Networks
+
+An Artificial Neural Network (ANN) is a machine learning model inspired by the human brain. It learns patterns from data and uses them to make predictions or classifications.
+
+## 2. Layers in a Neural Network
+
+- **Input Layer:** Receives the input features from the dataset.
+- **Hidden Layers:** Process the input data and learn patterns using weights, biases, and activation functions.
+- **Output Layer:** Produces the final prediction, such as a class label or numerical value.
+
+## 3. Neurons, Weights, and Biases
+
+- **Neuron:** A processing unit that receives inputs and produces an output.
+- **Weights:** Control the influence of input features.
+- **Bias:** Helps adjust the neuron's output.
+
+During training, the model updates weights and biases to reduce prediction errors.
+
+## 4. Activation Functions
+
+Activation functions introduce nonlinearity, allowing neural networks to learn complex patterns.
+
+- **ReLU:** Returns zero for negative inputs and the input value for positive inputs. Commonly used in hidden layers.
+- **Sigmoid:** Produces values between 0 and 1, often used for binary classification outputs.
+- **Softmax:** Converts output scores into probabilities across multiple classes.
+- **Tanh:** Produces values between -1 and 1.
+
+## 5. Epochs and Batch Size
+
+- **Epoch:** One complete pass through the entire training dataset.
+- **Batch Size:** Number of training examples processed before a weight update.
+- **Iterations:** Number of training batches processed during an epoch or training run.
+
+Training for more epochs can improve learning, but too many epochs may cause overfitting.
+
+## 6. Loss Function and Optimizer
+
+- **Loss Function:** Measures the difference between the model's predictions and the actual values.
+- **Optimizer:** Updates model weights to reduce the loss.
+- **Adam:** A commonly used optimizer for training neural networks.
+- **Backpropagation:** Calculates gradients used to update model parameters.
+
+## 7. Training and Evaluation
+
+A dataset is commonly divided into training and testing sets.
+
+- **Training Data:** Used to learn model parameters.
+- **Validation Data:** Used to monitor performance and tune model settings.
+- **Testing Data:** Used to evaluate the trained model on unseen examples.
+
+Common evaluation metrics include accuracy, precision, recall, F1-score, and the confusion matrix.
+
+## 8. Overfitting and Underfitting
+
+- **Overfitting:** The model performs well on training data but poorly on unseen data.
+- **Underfitting:** The model fails to learn the important patterns in the data.
+
+Possible solutions include adjusting model complexity, collecting more data, regularization, and tuning training settings.
+
+## 9. Saving and Loading Models
+
+Trained Keras models can be saved using `model.save()` and reloaded using `load_model()`. This allows a model to be reused without training it again.
+
+## 10. Conclusion
+
+Neural networks learn patterns through layers of neurons, train by adjusting weights and biases, and use activation functions to model complex relationships. Epochs control how many times the model processes the training data. Evaluating predictions and analyzing errors help us understand and improve model performance.
