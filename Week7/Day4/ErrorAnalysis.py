@@ -1,12 +1,17 @@
 
+import os
+
+os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+
 import pandas as pd
 import numpy as np
+import tensorflow as tf
 
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, confusion_matrix
-
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Input, Dense
 
@@ -28,6 +33,8 @@ X_test_original = X_test.copy()
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
+
+tf.keras.utils.set_random_seed(42)
 
 model = Sequential([
     Input(shape=(4,)),
@@ -79,10 +86,9 @@ else:
         ).round(4)
     })
 
-    errors["Possible Reason"] = [
+    errors["Possible Reason"] = (
         "Similar features or overlapping class characteristics"
-        for _ in wrong_indices
-    ]
+    )
 
     print("\nMisclassified Samples:")
     print(errors.to_string(index=False))
